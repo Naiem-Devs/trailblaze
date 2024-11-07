@@ -1,0 +1,78 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .menu-area nav ul li a {
+        font-size: 14px;
+    }
+    
+    .logo-area {
+        max-width: 130px;
+    }
+    
+    .header-btn a {
+        font-size: 12px;
+    }
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .logo-area {
+        max-width: 130px;
+    }
+    .hero__content h1 {
+        font-size: 48px;
+    }
+    
+    .hero__content p {
+        font-size: 16px;
+    }
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    .hero__content h1 {
+        font-size: 41px;
+        margin: 40px 0 20px;
+    }
+    
+    .hero__content p {
+        font-size: 16px;
+    }
+    
+    .logo-area {
+        max-width: 110px;
+    }
+    
+    .service__content h2 {
+        font-size: 20px;
+    }
+    
+    .service__content h2 img {
+        max-width: 40px;
+    }
+    
+    .title {
+        font-size: 14px;
+    }
+    
+    .svc__blk p {
+        font-size: 14px;
+    }
+ 
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
