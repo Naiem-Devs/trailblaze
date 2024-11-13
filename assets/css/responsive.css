@@ -18,7 +18,85 @@
     .header-btn a {
         font-size: 12px;
     }
+    .modal-content {
+        height: 82vh;
+    }
 
+    .text-mount h1 {
+        font-size: 110px;
+    }
+
+    @keyframes mount-clip-1 {
+        0% {
+          transform: translateY(80%);
+        }
+        25% {
+          transform: translateY(35%);
+        }
+        80% {
+          transform: translateY(35%);
+          opacity: 1;
+        }
+        100% {
+          transform: translateY(-30%);
+          opacity: 0;
+        }
+      }
+      
+      @keyframes mount-clip-2 {
+        0% {
+          transform: translateY(80%);
+        }
+        25% {
+          transform: translateY(35%);
+        }
+        80% {
+          transform: translateY(35%);
+          opacity: 1;
+        }
+        100% {
+          transform: translateY(-30%);
+          opacity: 0;
+        }
+      }
+      
+      @keyframes mount-clip-3 {
+        0% {
+          transform: translateY(80%);
+        }
+        25% {
+          transform: translateY(35%);
+        }
+        80% {
+          transform: translateY(35%);
+          opacity: 1;
+        }
+        100% {
+          transform: translateY(-30%);
+          opacity: 0;
+        }
+      }
+      
+      @keyframes mount-clip-4 {
+        0% {
+          transform: translateY(80%);
+        }
+        25% {
+          transform: translateY(35%);
+        }
+        80% {
+          transform: translateY(35%);
+          opacity: 1;
+        }
+        100% {
+          transform: translateY(-30%);
+          opacity: 0;
+        }
+      }
+      .text-mount img.mount-bg{
+        height: 81vh;
+      }
+      
 }
 
  
@@ -35,6 +113,92 @@
         font-size: 16px;
     }
 
+    .modal-content {
+        height: 82vh;
+        width: 94%;
+        margin: auto;
+    }
+    .text-mount h1 {
+        font-size: 80px;
+    }
+    .outGoing__text p {
+        max-width: 500px;
+    }
+    
+    .inCome__text p {
+        max-width: 500px;
+    }
+    @keyframes mount-clip-1 {
+        0% {
+          transform: translateY(80%);
+        }
+        25% {
+          transform: translateY(35%);
+        }
+        80% {
+          transform: translateY(35%);
+          opacity: 1;
+        }
+        100% {
+          transform: translateY(-30%);
+          opacity: 0;
+        }
+      }
+      
+      @keyframes mount-clip-2 {
+        0% {
+          transform: translateY(80%);
+        }
+        25% {
+          transform: translateY(35%);
+        }
+        80% {
+          transform: translateY(35%);
+          opacity: 1;
+        }
+        100% {
+          transform: translateY(-30%);
+          opacity: 0;
+        }
+      }
+      
+      @keyframes mount-clip-3 {
+        0% {
+          transform: translateY(80%);
+        }
+        25% {
+          transform: translateY(35%);
+        }
+        80% {
+          transform: translateY(35%);
+          opacity: 1;
+        }
+        100% {
+          transform: translateY(-30%);
+          opacity: 0;
+        }
+      }
+      
+      @keyframes mount-clip-4 {
+        0% {
+          transform: translateY(80%);
+        }
+        25% {
+          transform: translateY(35%);
+        }
+        80% {
+          transform: translateY(35%);
+          opacity: 1;
+        }
+        100% {
+          transform: translateY(-30%);
+          opacity: 0;
+        }
+      }
+      .text-mount img.mount-bg{
+        height: 81vh;
+      }
+      
 }
 
  
@@ -68,7 +232,158 @@
     .svc__blk p {
         font-size: 14px;
     }
- 
+    .modal-content {
+        height: 90vh;
+    }
+
+
+    .chatBtn {
+        width: 50px;
+        height: 50px;
+        right: 30px;
+        bottom: 30px;
+    }
+    .show__chat p {
+        font-size: 10px;
+    }
+    
+    .show__chat {
+        right: 12px;
+        max-width: 288px;
+        padding: 10px;
+        bottom: 108px;
+    }
+    
+    .show__chat:after {
+        border-left: 7px solid transparent;
+        border-right: 7px solid transparent;
+        border-top: 20px solid #4C4C4C;
+        bottom: -20px;
+    }
+    .modal-content {
+        height: 86vh;
+        width: 94%;
+        margin: auto;
+        border-radius: 16px;
+    }
+
+    .outGoing__text p {
+        max-width: 90%;
+        font-size: 12px;
+        padding: 10px;
+    }
+
+.inCome__text.icon i {
+    flex-shrink: 0;
+    max-width: 32px;
+}
+
+.inCome__text.icon {
+    gap: 10px;
+}
+    
+    .inCome__text p {
+        max-width: 95%;
+        font-size: 13px;
+        padding: 8px;
+    }
+    @keyframes mount-clip-1 {
+        0% {
+          transform: translateY(80%);
+        }
+        25% {
+          transform: translateY(35%);
+        }
+        80% {
+          transform: translateY(35%);
+          opacity: 1;
+        }
+        100% {
+          transform: translateY(-30%);
+          opacity: 0;
+        }
+      }
+      
+      @keyframes mount-clip-2 {
+        0% {
+          transform: translateY(80%);
+        }
+        25% {
+          transform: translateY(35%);
+        }
+        80% {
+          transform: translateY(35%);
+          opacity: 1;
+        }
+        100% {
+          transform: translateY(-30%);
+          opacity: 0;
+        }
+      }
+      
+      @keyframes mount-clip-3 {
+        0% {
+          transform: translateY(80%);
+        }
+        25% {
+          transform: translateY(35%);
+        }
+        80% {
+          transform: translateY(35%);
+          opacity: 1;
+        }
+        100% {
+          transform: translateY(-30%);
+          opacity: 0;
+        }
+      }
+      
+      @keyframes mount-clip-4 {
+        0% {
+          transform: translateY(80%);
+        }
+        25% {
+          transform: translateY(35%);
+        }
+        80% {
+          transform: translateY(35%);
+          opacity: 1;
+        }
+        100% {
+          transform: translateY(-30%);
+          opacity: 0;
+        }
+      }
+      .text-mount img.mount-bg{
+        height: 84vh;
+      }
+      .chat__btm .input__blk {
+        padding: 10px;
+        border-radius: 10px;
+    }
+    
+    .chat__btm .input__blk input {
+        height: 45px;
+        font-size: 12px;
+        padding-right: 50px;
+        border-radius: 7px;
+    }
+    
+    .chat__btm .input__blk button {
+        width: 30px;
+        height: 30px;
+        right: 17px;
+        border-radius: 6px;
+    }
+    
+    .Powered-text p {
+        font-size: 17px;
+    }
+    
+    .Powered-text small {
+        font-size: 10px;
+    }
+
 }
  
 /* Large Mobile screen :480px. */

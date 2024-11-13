@@ -10,10 +10,7 @@
         <!-- Place favicon.ico in the root directory -->
         
 		<!-- CSS here -->
-        <link rel="stylesheet" href="assets/css/aos.css">
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/owl.carousel.min.css"> 
-        <link rel="stylesheet" href="assets/css/fontawesome.min.css">  
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/responsive.css">
     </head>
@@ -43,7 +40,7 @@
                 </div>
                 <div class="col-lg-3 d-none d-lg-block">
                     <div class="header-btn">
-                        <a href="">Get in Touch</a>
+                        <a href="" >Get in Touch</a>
                     </div>
                 </div>
                 <div class="col-6 d-block d-lg-none text-center">
@@ -144,18 +141,96 @@
         </section>
         <!--------- Section End ---------->
 
-
+<div class="sss">SHAPE <br> TOMORROW</div>
 
 
     </main>
 
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="chat__modal">
+                    <div class="text-mount">
+                        <a href=""><img src="assets/img/logo-lg.png" alt=""></a>
+                        <h1 class="solid-text">SHAPE <br> TOMORROW</h1>
+                        <h1 class="text-border">SHAPE <br> TOMORROW</h1>
+                        <img src="assets/img/mount-clip.png" class="mount-bg" alt="">
+                        <div class="mount__img">
+                            <img src="assets/img/mount-clip-1.png" class="mount-clip-1" alt="">
+                            <img src="assets/img/mount-clip-2.png" class="mount-clip-2" alt="">
+                            <img src="assets/img/mount-clip-3.png" class="mount-clip-3" alt="">
+                            <img src="assets/img/mount-clip-4.png" class="mount-clip-4" alt="">
+                        </div>
+                    </div>
+                    <div class="chat__content">
+                        <div class="chat__top">
+                            <a href=""><img src="assets/img/logo.png" alt=""></a>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="chat__mid">
+                            <div class="Bot-img">
+                                <img src="assets/img/Bot.gif" alt="">
+                            </div>
+                            <div class="inCome__text">
+                                <p>👋Willkommen bei TrailBlaze Innovation! Ich bin Ihr mehrsprachiger virtueller Assistent. Möchten Sie auch einen Chatbot wie mich auf Ihrer Website? Ich zeige Ihnen gerne, wie einfach das ist!</p>
+                                <p>👁   Mehr erfahren </p>
+                                <p>🔍  Unsere Dienstleistungen entdecken</p>
+                                <p>🚀  Kostenlose Testphase starten</p>
+                                <p>📧  Kontakt aufnehme</p>
+                                <p>👩‍💻  Kundensupport-Ticket einreichen</p>
+                            </div>
+                            <div class="outGoing__text">
+                                <p>🚀  Kostenlose Testphase starten</p>
+                            </div>
+                            <div class="inCome__text icon">
+                                <i><img src="assets/img/roket-icon.png" alt=""></i>
+                                <p>Note: This is just an example of a simple HTML form. In a real-world scenario, you would also want to include proper validation </p>
+                            </div>
+                            <div class="outGoing__text">
+                                <p>Write code (HTML, CSS and JS) for a simple welcome page and form with 3 input fields and a dropdown with 2 buttons,</p>
+                            </div>
+                        </div>
+                        <div class="chat__btm">
+                            <div class="input__blk">
+                                <input type="text" placeholder="Stellen Sie hier Ihre Frage">
+                                <button type="button" ><img src="assets/img/arrow-up.svg" alt=""></button>
+                            </div>
+                            <div class="Powered-text">
+                                <small>By chatting, you agree to our <a href="">privacy policy</a></small>
+                                <p>🚀  Powered by TrailBlaze Innovation</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="show__chat">
+        <button type="button"><img src="assets/img/x-circle.svg" alt=""></button>
+        <p>Erleben Sie unsere KI – starten Sie das Gespräch!</p>
+        <p>Übrigens, Sie können einen Chatbot wie mich auch auf Ihrer Website in allen Sprachen einsetzen!</p>
+    </div>
+
+    <button type="button" class="chatBtn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <i><img src="assets/img/chat-icon.gif" alt=""></i>
+    </button>
+
     <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
     <script>
          // menu 
         $('.siteBar-btn').click( function (event){ 
             event.preventDefault()
             $(this).toggleClass('active');   
             $('.mobile-menu').toggleClass('siteBar');   
+        }); 
+
+        $('.show__chat button').click( function (event){ 
+            event.preventDefault()
+            $(".show__chat").hide(100);     
         }); 
 
     </script>
