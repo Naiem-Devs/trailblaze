@@ -6,7 +6,7 @@
 
 
 /* Normal screen :992px. */
-@media (min-width: 992px) and (max-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1199px) {
     .menu-area nav ul li a {
         font-size: 14px;
     }
@@ -23,7 +23,7 @@
     }
 
     .text-mount h1 {
-        font-size: 110px;
+        font-size: 120px;
     }
 
     @keyframes mount-clip-1 {
@@ -119,7 +119,7 @@
         margin: auto;
     }
     .text-mount h1 {
-        font-size: 80px;
+        font-size: 106px;
     }
     .outGoing__text p {
         max-width: 500px;
@@ -383,11 +383,22 @@
     .Powered-text small {
         font-size: 10px;
     }
-
+    .text-mount h1{
+    font-size: 50px;
+}
 }
  
 /* Large Mobile screen :480px. */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media only screen and (min-width: 480px) and (max-width: 580px) {
 .container {width:450px}
- 
+.text-mount h1{
+    font-size: 64px;
+}
+}
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 581px) and (max-width: 767px) {
+.container {width:450px}
+.text-mount h1{
+    font-size: 81px;
+}
 }
