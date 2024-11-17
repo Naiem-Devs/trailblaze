@@ -507,10 +507,10 @@ h1.solid-text {
 }
 
 .Bot-img:after {
-    background: linear-gradient(90deg, #a9a9a9, transparent);
+    background: linear-gradient(270deg, red, transparent);
     background: linear-gradient(270deg, #a9a9a9, transparent);
     left: auto;
-    right: 30px;
+    right: 40px;
 }
 
 .inCome__text.icon {
@@ -660,35 +660,35 @@ h1.solid-text {
 
 
 .modal.show .solid-text {
-  animation: solid-text 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.1s both;
+  animation: solid-text 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.1s both;
 }
 
 .modal.show .text-border {
-  animation: text-border 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.1s both;
+  animation: text-border 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.1s both;
 }
 
 .modal.show .mount-bg {
-  animation: mount-bg 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.1s both;
+  animation: mount-bg 6s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.1s both;
 }
 
 .modal.show .mount-clip-1 {
-  animation: mount-clip-1 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.1s both;
+  animation: mount-clip-1 6s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.1s both;
 }
 
 .modal.show .mount-clip-2 {
-  animation: mount-clip-2 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.1s both;
+  animation: mount-clip-2 6s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.1s both;
 }
 
 .modal.show .mount-clip-3 {
-  animation: mount-clip-3 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.1s both;
+  animation: mount-clip-3 6s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.1s both;
 }
 
 .modal.show .mount-clip-4 {
-  animation: mount-clip-4 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.1s both;
+  animation: mount-clip-4 6s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.1s both;
 }
 
 .modal.show .text-mount a {
-  animation: logo-icon 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 3.5s both;
+  animation: logo-icon 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 4s both;
 }
 
 .modal.show .chat__content {
